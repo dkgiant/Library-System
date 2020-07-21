@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_daytoday">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -37,7 +37,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_books">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -60,7 +60,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btn_users">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -83,7 +83,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btn_settings">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -106,7 +106,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btn_showthemes">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -129,7 +129,7 @@
      </size>
     </property>
    </widget>
-   <widget class="QTabWidget" name="tabWidget">
+   <widget class="QTabWidget" name="tab_main">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -334,11 +334,11 @@
         <x>10</x>
         <y>10</y>
         <width>981</width>
-        <height>421</height>
+        <height>451</height>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab_5">
        <attribute name="title">
@@ -386,7 +386,7 @@
        <widget class="QLineEdit" name="lineEdit_4">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>10</y>
           <width>331</width>
           <height>41</height>
@@ -399,7 +399,7 @@
        <widget class="QLabel" name="label_4">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>10</y>
           <width>91</width>
           <height>40</height>
@@ -412,7 +412,7 @@
        <widget class="QComboBox" name="comboBox_3">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>70</y>
           <width>331</width>
           <height>31</height>
@@ -422,7 +422,7 @@
        <widget class="QLabel" name="label_5">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>70</y>
           <width>91</width>
           <height>30</height>
@@ -435,7 +435,7 @@
        <widget class="QLabel" name="label_6">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>120</y>
           <width>91</width>
           <height>30</height>
@@ -448,7 +448,7 @@
        <widget class="QLabel" name="label_7">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>170</y>
           <width>91</width>
           <height>30</height>
@@ -461,7 +461,7 @@
        <widget class="QLabel" name="label_8">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>220</y>
           <width>91</width>
           <height>40</height>
@@ -474,7 +474,7 @@
        <widget class="QComboBox" name="comboBox_4">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>120</y>
           <width>331</width>
           <height>31</height>
@@ -484,7 +484,7 @@
        <widget class="QComboBox" name="comboBox_5">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>170</y>
           <width>331</width>
           <height>31</height>
@@ -494,7 +494,7 @@
        <widget class="QLineEdit" name="lineEdit_5">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>220</y>
           <width>331</width>
           <height>41</height>
@@ -525,7 +525,7 @@
        <widget class="QLineEdit" name="lineEdit_6">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>270</y>
           <width>331</width>
           <height>41</height>
@@ -538,7 +538,7 @@
        <widget class="QComboBox" name="comboBox_6">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>170</y>
           <width>331</width>
           <height>31</height>
@@ -548,7 +548,7 @@
        <widget class="QLabel" name="label_9">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>60</y>
           <width>91</width>
           <height>40</height>
@@ -574,7 +574,7 @@
        <widget class="QLabel" name="label_10">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>220</y>
           <width>91</width>
           <height>30</height>
@@ -600,7 +600,7 @@
        <widget class="QLabel" name="label_11">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>170</y>
           <width>91</width>
           <height>30</height>
@@ -613,7 +613,7 @@
        <widget class="QLineEdit" name="lineEdit_9">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>60</y>
           <width>331</width>
           <height>41</height>
@@ -639,7 +639,7 @@
        <widget class="QLabel" name="label_13">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>270</y>
           <width>91</width>
           <height>40</height>
@@ -652,7 +652,7 @@
        <widget class="QLabel" name="label_14">
         <property name="geometry">
          <rect>
-          <x>540</x>
+          <x>530</x>
           <y>120</y>
           <width>91</width>
           <height>30</height>
@@ -665,7 +665,7 @@
        <widget class="QComboBox" name="comboBox_7">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>120</y>
           <width>331</width>
           <height>31</height>
@@ -675,7 +675,7 @@
        <widget class="QComboBox" name="comboBox_8">
         <property name="geometry">
          <rect>
-          <x>640</x>
+          <x>630</x>
           <y>220</y>
           <width>331</width>
           <height>31</height>
@@ -1279,12 +1279,12 @@
      </widget>
     </widget>
    </widget>
-   <widget class="QGroupBox" name="groupBox_3">
+   <widget class="QGroupBox" name="gb_themes">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>1050</x>
       <y>0</y>
-      <width>351</width>
+      <width>41</width>
       <height>481</height>
      </rect>
     </property>
@@ -1322,7 +1322,7 @@
     <widget class="QPushButton" name="pushButton_17">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>60</x>
        <y>90</y>
        <width>121</width>
        <height>121</height>
@@ -1335,7 +1335,7 @@
     <widget class="QPushButton" name="pushButton_18">
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>190</x>
        <y>90</y>
        <width>121</width>
        <height>121</height>
@@ -1348,7 +1348,7 @@
     <widget class="QPushButton" name="pushButton_19">
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>190</x>
        <y>220</y>
        <width>121</width>
        <height>121</height>
@@ -1361,7 +1361,7 @@
     <widget class="QPushButton" name="pushButton_20">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>60</x>
        <y>220</y>
        <width>121</width>
        <height>121</height>
@@ -1369,6 +1369,19 @@
      </property>
      <property name="text">
       <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_hidethemes">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>197</y>
+       <width>31</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&gt;</string>
      </property>
     </widget>
    </widget>

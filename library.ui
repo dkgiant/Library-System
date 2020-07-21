@@ -1283,9 +1283,9 @@
     <property name="geometry">
      <rect>
       <x>740</x>
-      <y>10</y>
+      <y>0</y>
       <width>351</width>
-      <height>461</height>
+      <height>481</height>
      </rect>
     </property>
     <property name="font">
